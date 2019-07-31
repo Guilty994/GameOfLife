@@ -5,7 +5,7 @@
 
   **Homework:**      Conway’s Game of Life Game
 
-  **Istance AWS:**   m4.xlarge
+  **Istanze AWS:**   m4.xlarge
 
   ### How to...
    **Compilare:**    `mpicc gameOfLife.c -o gameOfLife`
