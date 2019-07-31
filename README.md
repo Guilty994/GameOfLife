@@ -1,4 +1,4 @@
-# GameOfLife
+# Game Of Life
  ## PCPC homework
 
   **Studente:**      Domenico Liguori, 0522500580
