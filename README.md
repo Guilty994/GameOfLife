@@ -7,10 +7,12 @@
 
   **Istanze AWS:**   m4.xlarge
 
-  ### How to...
+  ### Come compilare...
    **Compilare:**    `mpicc gameOfLife.c -o gameOfLife`
 
    **Eseguire:**      `mpirun -np {Numero di VCPU} ./gameOfLife {Righe matrice} {Colonne matrice} {Numero di generazioni}`
+   {Numero di VCPU} <= {Righe matrice}
+
   
   ### Descrzione soluzione
 
