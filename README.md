@@ -8,9 +8,9 @@
   **Istance AWS:**   m4.xlarge
 
   ### How to...
-   Compilazione: `mpicc gameOfLife_par.c -o gameOfLife_par`
+   **Compilare:**    `mpicc gameOfLife.c -o gameOfLife`
 
-   Esecuzione: `mpirun -np {Numero di VCPU} ./gameOfLife_par {Righe matrice} {Colonne matrice} {Numero di generazioni}`
+   **Eseguire:**      `mpirun -np {Numero di VCPU} ./gameOfLife {Righe matrice} {Colonne matrice} {Numero di generazioni}`
   
   ### Descrzione soluzione
 
