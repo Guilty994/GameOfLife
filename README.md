@@ -27,6 +27,26 @@
   Quando il ciclo delle generazioni è completo, viene fatta una `MPI_Gatherv` che prende tutti i `localNewWorld` e li aggrega dentro `newWorld`, qui sarà contenuto lo stato finale del gioco.
 
   ### Benchmark
-  
+  Row = 7500
+  Col = 7500
+  Gen = 100
+
+  INSTANCEs |VCPUs  |AVG Time   |SpeedUp	
+  1          |1     |197.086150 |1    	
+  1	         |4    	|83.975919	|2.346936507	
+  2	         |8    	|44.227987	|4.456141086	
+  3	         |12    |30.609167	|6.438794953	
+  4	         |16    |23.848921	|8.2639441	
+  5	         |20    |20.004864	|9.851911515	
+  6	         |24    |17.329431	|11.37291524	
+  7	         |28    |15.349215	|12.84014525	
+  8          |32    |13.862413	|14.21730474	
+
+
+  First Header | Second Header
+  ------------ | -------------
+  Content from cell 1 | Content from cell 2
+  Content in the first column | Content in the second column
+
 
 
