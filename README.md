@@ -46,7 +46,3 @@
 
   ## Weak scalability
   ![Weak scalability](https://github.com/Guilty994/GameOfLife/blob/master/weak.png)
-
-
-
-
