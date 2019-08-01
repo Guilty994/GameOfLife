@@ -42,7 +42,9 @@
   7	        | 28     |  15.349215	 |  12.84014525	
   8         | 32     |  13.862413	 |  14.21730474	
 
+  ![Strong scalability](https://github.com/Guilty994/GameOfLife/blob/master/strong.png)
 
+  ![Weak scalability](https://github.com/Guilty994/GameOfLife/blob/master/weak.png)
 
 
 
