@@ -26,21 +26,55 @@
 
   Quando il ciclo delle generazioni è completo, viene fatta una `MPI_Gatherv` che prende tutti i `localNewWorld` e li aggrega dentro `newWorld`, qui sarà contenuto lo stato finale del gioco.
 
-  ### Benchmark
+  ### Benchmarks
+  #### Size 1000 x 1000 x 100 run
+  Row | Col | Gen 
+  --- | --- |----
+  1000|1000 |100
+
+  INSTANCEs | VCPUs  |  AVG Time   
+  --------- | ------ |------------ 
+  1	        | 4    	 |  83.975919	
+  2	        | 8    	 |  44.227987	 	
+  3	        | 12     |  30.609167	
+  4	        | 16     |  23.848921	 	
+  5	        | 20     |  20.004864	
+  6	        | 24     |  17.329431	
+  7	        | 28     |  15.349215	 
+  8         | 32     |  13.862413	
+
+ #### Size 5000 x 5000 x 100 run
+  Row | Col | Gen 
+  --- | --- |----
+  5000|5000 |100
+
+  INSTANCEs | VCPUs  |  AVG Time   
+  --------- | ------ |------------ 
+  1	        | 4    	 |  83.975919	
+  2	        | 8    	 |  44.227987	 	
+  3	        | 12     |  30.609167	
+  4	        | 16     |  23.848921	 	
+  5	        | 20     |  20.004864	
+  6	        | 24     |  17.329431	
+  7	        | 28     |  15.349215	 
+  8         | 32     |  13.862413	
+
+  #### Size 7500 x 7500 x 100 run
   Row | Col | Gen 
   --- | --- |----
   7500|7500 |100
 
-  INSTANCEs | VCPUs  |  AVG Time   |  SpeedUp	
-  --------- | ------ |------------ |-------------
-  1	        | 4    	 |  83.975919	 |  2.346936507	
-  2	        | 8    	 |  44.227987	 |  4.456141086	
-  3	        | 12     |  30.609167	 |  6.438794953	
-  4	        | 16     |  23.848921	 |  8.2639441	
-  5	        | 20     |  20.004864	 |  9.851911515	
-  6	        | 24     |  17.329431	 |  11.37291524	
-  7	        | 28     |  15.349215	 |  12.84014525	
-  8         | 32     |  13.862413	 |  14.21730474	
+  INSTANCEs | VCPUs  |  AVG Time   
+  --------- | ------ |------------ 
+  1	        | 4    	 |  83.975919	
+  2	        | 8    	 |  44.227987	 	
+  3	        | 12     |  30.609167	
+  4	        | 16     |  23.848921	 	
+  5	        | 20     |  20.004864	
+  6	        | 24     |  17.329431	
+  7	        | 28     |  15.349215	 
+  8         | 32     |  13.862413	
+
   ## Strong scalability
   ![Strong scalability](https://github.com/Guilty994/GameOfLife/blob/master/strong.png)
 
