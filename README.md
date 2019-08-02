@@ -91,29 +91,29 @@ INSTANCEs | VCPUs  |  AVG Time
 8         | 32     |  13.862413	
 
 #### Strong scalability
-![Strong scalability](https://github.com/Guilty994/GameOfLife/blob/master/strong.png)
+![Strong scalability](https://github.com/Guilty994/GameOfLife/blob/master/imgs/strong.png)
 
 #### Weak scalability
 Row | Col | Gen 
 --- | --- |----
 1000|1000 |100
 
-![Weak scalability 1000](https://github.com/Guilty994/GameOfLife/blob/master/weak1000.png)
+![Weak scalability 1000](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak1000.png)
 
 Row | Col | Gen 
 --- | --- |----
 2500|2500 |100
 
-![Weak scalability 1000](https://github.com/Guilty994/GameOfLife/blob/master/weak2500.png)
+![Weak scalability 1000](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak2500.png)
 
 Row | Col | Gen 
 --- | --- |----
 5000|5000 |100
 
-![Weak scalability 5000](https://github.com/Guilty994/GameOfLife/blob/master/weak5000.png)
+![Weak scalability 5000](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak5000.png)
 
 Row | Col | Gen 
 --- | --- |----
 7500|7500 |100
 
-![Weak scalability 7500](https://github.com/Guilty994/GameOfLife/blob/master/weak7500.png)
+![Weak scalability 7500](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak7500.png)
