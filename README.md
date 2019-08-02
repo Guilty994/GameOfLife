@@ -15,7 +15,7 @@
 `{Numero di VCPU} <= {Righe matrice}`
 
 
-### Descrzione soluzione
+### Descrizione soluzione
 Nella soluzione proposta, prima di inziaire con l'avvio del gioco vero e proprio, tutti i processi inizializzano le strutture dati necessarie, come `world`, per memorizzare la matrice iniziale e `newWorld` che conterrà lo stato finale della matrice, oltre che a diverse strutture per la computazione locale e l'invio di dati ai processi adiacenti. Tutti i processi recuperano le informazioni relative alla dimensione del problema, al numero di processi allocati, calcolano le dimensioni locali del problema che dovranno essere computate e le dimensioni dei dati da comunicare ai processi adiancenti.
 
 La suddivisione della matrice contenente lo stato delle cellule, è stata fatta per righe; questa scelta non è stata casuale, ma adottata per favorire la distrubizione del carico da parte del Master e la comunicazione tra pocessi, i quali leggono i dati da inviare da posizioni contigue di memoria.
