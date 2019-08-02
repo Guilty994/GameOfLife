@@ -29,66 +29,70 @@ Quando il ciclo delle generazioni è completo, viene fatta una `MPI_Gatherv` che
 ### Benchmarks
 
 * Righe 1000, Colonne 1000, Generazioni = 100
-INSTANCEs | VCPUs  |  AVG Time   
---------- | ------ |------------ 
-1   |1  |  3.480594
-1	        | 4    	 |  1.489598	
-2	        | 8    	 |  0.832074	 	
-3	        | 12     |  0.619511
-4	        | 16     |  0.542398	 	
-5	        | 20     |  0.496264	
-6	        | 24     | 0.493969	
-7	        | 28     |  0.501541 
-8         | 32     |  0.520974
+
+    INSTANCEs | VCPUs  |  AVG Time   
+    --------- | ------ |------------ 
+    1   |1  |  3.480594
+    1	        | 4    	 |  1.489598	
+    2	        | 8    	 |  0.832074	 	
+    3	        | 12     |  0.619511
+    4	        | 16     |  0.542398	 	
+    5	        | 20     |  0.496264	
+    6	        | 24     | 0.493969	
+    7	        | 28     |  0.501541 
+    8         | 32     |  0.520974
 
 * Righe 2500, Colonne 2500, Generazioni = 100
-INSTANCEs | VCPUs  |  AVG Time   
---------- | ------ |------------ 
-1           |1      |21.935433
-1	        | 4    	 |  9.390863	
-2	        | 8    	 |  4.918352 	
-3	        | 12     | 3.476017	
-4	        | 16     | 2.749868 	
-5	        | 20     |  2.351745
-6	        | 24     |  2.044515	
-7	        | 28     |  1.886699 
-8         | 32     | 1.734644
+
+    INSTANCEs | VCPUs  |  AVG Time   
+    --------- | ------ |------------ 
+    1           |1      |21.935433
+    1	        | 4    	 |  9.390863	
+    2	        | 8    	 |  4.918352 	
+    3	        | 12     | 3.476017	
+    4	        | 16     | 2.749868 	
+    5	        | 20     |  2.351745
+    6	        | 24     |  2.044515	
+    7	        | 28     |  1.886699 
+    8         | 32     | 1.734644
 
 * Righe 5000, Colonne 5000, Generazioni = 100
-INSTANCEs | VCPUs  |  AVG Time   
---------- | ------ |------------ 
-1         | 1      |  87.538921
-1	      | 4      |  37.304942	
-2	      | 8      |  19.569110	 	
-3	      | 12     |  13.603843	
-4	      | 16     |  11.034255	 	
-5	      | 20     |  9.020618	
-6	      | 24     |  7.948478	
-7	      | 28     |  6.905193 
-8         | 32     |  6.253685
+
+    INSTANCEs | VCPUs  |  AVG Time   
+    --------- | ------ |------------ 
+    1         | 1      |  87.538921
+    1	      | 4      |  37.304942	
+    2	      | 8      |  19.569110	 	
+    3	      | 12     |  13.603843	
+    4	      | 16     |  11.034255	 	
+    5	      | 20     |  9.020618	
+    6	      | 24     |  7.948478	
+    7	      | 28     |  6.905193 
+    8         | 32     |  6.253685
 
 * Righe 7500, Colonne 7500, Generazioni = 100
-INSTANCEs | VCPUs  |  AVG Time   
---------- | ------ |------------ 
-1   |1  |197.086150
-1	        | 4    	 |  83.975919	
-2	        | 8    	 |  44.227987	 	
-3	        | 12     |  30.609167	
-4	        | 16     |  23.848921	 	
-5	        | 20     |  20.004864	
-6	        | 24     |  17.329431	
-7	        | 28     |  15.349215	 
-8         | 32     |  13.862413	
+
+    INSTANCEs | VCPUs  |  AVG Time   
+    --------- | ------ |------------ 
+    1   |1  |197.086150
+    1	        | 4    	 |  83.975919	
+    2	        | 8    	 |  44.227987	 	
+    3	        | 12     |  30.609167	
+    4	        | 16     |  23.848921	 	
+    5	        | 20     |  20.004864	
+    6	        | 24     |  17.329431	
+    7	        | 28     |  15.349215	 
+    8         | 32     |  13.862413	
 
 #### Strong scalability
 ![Strong scalability](https://github.com/Guilty994/GameOfLife/blob/master/imgs/strong.png)
 
 #### Weak scalability
-* Righe 1000, Colonne 1000, Generazioni = 100
+* Righe: 1000, Colonne: 1000, Generazioni: 100
 ![Weak scalability 1000](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak1000.png)
-* Righe 2500, Colonne 2500, Generazioni = 100
+* Righe: 2500, Colonne: 2500, Generazioni: 100
 ![Weak scalability 1000](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak2500.png)
-* Righe 5000, Colonne 5000, Generazioni = 100
+* Righe: 5000, Colonne: 5000, Generazioni: 100
 ![Weak scalability 5000](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak5000.png)
-* Righe 7500, Colonne 7500, Generazioni = 100
+* Righe: 7500, Colonne: 7500, Generazioni: 100
 ![Weak scalability 7500](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak7500.png)
