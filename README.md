@@ -86,7 +86,7 @@ Quando il ciclo delle generazioni è completo, viene fatta una `MPI_Gatherv` che
 #### Strong scalability
 ![Strong scalability](https://github.com/Guilty994/GameOfLife/blob/master/imgs/strong.png)
 
-####Risultati
+#### Risultati
     Analizzando i risultati che possiamo vedere nel plotting della strong scalability, abbiamo i valori più alti sui 4 VCPU, intorno al 60%, tuttavia richiede dei tempi ancora troppo alti per l'algoritmo. Lo sweet spoot possiamo trovarlo tra i 4 e gli 8 VCPU in cui abbiamo un efficieza che va dal 60% al 25%, in questo intervallo infatti pur avendo un livello di efficienza non troppo alto, abbiamo un tempo di risoluzione del programma ragionevole, sopratutto per dimensioni del problema molto grandi.
     Il fatto che abbiamo dei risultati alquanto deludenti dalla strong scalability è dovuta sicuramente al fatto che il problema è cpu-bound ma anche all'overhead dell'allocare nuovi processi.
 
@@ -100,5 +100,5 @@ Quando il ciclo delle generazioni è completo, viene fatta una `MPI_Gatherv` che
 * Righe: 7500, Colonne: 7500, Generazioni: 100
 ![Weak scalability 7500](https://github.com/Guilty994/GameOfLife/blob/master/imgs/weak7500.png)
 
-####Risultati
+#### Risultati
 
