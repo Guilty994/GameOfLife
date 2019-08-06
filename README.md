@@ -7,6 +7,8 @@
 
 **Istanze AWS:**   m4.xlarge
 
+**GitHub:**        [Game of Life](https://github.com/Guilty994/GameOfLife)
+
 ### Come...
 **Compilare:**    `mpicc gameOfLife.c -o gameOfLife`
 
